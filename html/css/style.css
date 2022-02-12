@@ -1,0 +1,28 @@
+div.group {
+    margin: 5px 0;
+    padding: 10px;
+    background: rgb(240, 240, 240);
+    border-radius: 3%;
+}
+div.group input {
+    margin-top: 5px;
+}
+div.group button {
+    display: block;
+    padding: 4px;
+    width: 100%;
+    outline: none;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px gray;
+}
+div.group button.enable {
+    background: rgb(19, 202, 58);
+}
+div.group button.disable {
+    background: rgb(202, 19, 19);
+}

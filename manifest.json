@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "XDEBUG JetBrains IDE Keys",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "browser_action": {
+    "default_popup": "html/popup.html",
+    "default_title": "XDEBUG JetBrains IDE Keys"
+  },
+  "permissions": [
+    "storage",
+    "cookies",
+    "tabs",
+    "<all_urls>"
+  ]
+}
